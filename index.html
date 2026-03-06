@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Women's Day, Prerana 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="rain-container" id="rainContainer" aria-hidden="true"></div>
+
+  <!-- ========== PAGE 1: Landing (wish + Click me) ========== -->
+  <section class="landing" id="landing">
+    <div class="landing-hearts">
+      <span class="soft-heart"></span>
+      <span class="soft-heart"></span>
+      <span class="soft-heart"></span>
+      <span class="soft-heart"></span>
+      <span class="soft-heart"></span>
+      <span class="soft-heart"></span>
+    </div>
+    <h1 class="landing-title">Happy Women's Day</h1>
+    <p class="landing-name">Prerana</p>
+    <p class="landing-wish">This day is for you. Click below to open your surprise.</p>
+    <button type="button" class="btn btn-landing" id="openSurprise">Click me 💕</button>
+  </section>
+
+  <!-- ========== PAGE 2: Main content (after click) ========== -->
+  <div class="main-wrap hidden" id="mainWrap">
+    <header class="hero">
+      <div class="floating-hearts">
+        <span class="heart">♥</span>
+        <span class="heart">♥</span>
+        <span class="heart">♥</span>
+        <span class="soft-heart"></span>
+        <span class="soft-heart"></span>
+        <span class="soft-heart"></span>
+      </div>
+      <h1 class="title animate-fade-in">Happy Women's Day</h1>
+      <p class="subtitle animate-fade-in-delay">Prerana</p>
+      <p class="tagline animate-fade-in-delay-2">You inspire. You shine. You're everything.</p>
+    </header>
+
+    <main>
+      <section class="card-section">
+        <div class="card animate-card">
+          <h2>To the girl who stole my heart ♡</h2>
+          <p>Prerana, every day with you feels like a celebration. Your smile could light up the darkest room, and your presence makes my world beautiful. Born on May 19, 2005 — the day the universe decided to gift us someone extraordinary.</p>
+        </div>
+
+        <div class="card animate-card">
+          <h2>Why you're amazing</h2>
+          <ul class="reasons">
+            <li>Your laugh is my favorite sound</li>
+            <li>You're strong, kind, and absolutely stunning</li>
+            <li>You make every moment magical</li>
+            <li>You deserve the world — and more</li>
+          </ul>
+        </div>
+
+        <section class="flirt-section">
+          <h2 class="flirt-title">Pick your rain — each button is different</h2>
+          <p class="flirt-hint">Click any button for a beautiful shower 🌸</p>
+          <div class="rain-buttons">
+            <button type="button" class="btn btn-primary" data-rain="flowers">🌸 Flowers</button>
+            <button type="button" class="btn btn-secondary" data-rain="candy">🍬 Candy</button>
+            <button type="button" class="btn btn-primary" data-rain="hearts">💕 Hearts</button>
+            <button type="button" class="btn btn-secondary" data-rain="stars">✨ Stars</button>
+            <button type="button" class="btn btn-primary" data-rain="butterflies">🦋 Butterflies</button>
+          </div>
+        </section>
+
+        <div class="card animate-card quote-card">
+          <blockquote>
+            "In a world full of trends, you remain a classic. Happy Women's Day, Prerana — today and every day is yours."
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made with love for you, Prerana. 💗</p>
+      <p class="small">March 8 — Women's Day 2025</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
